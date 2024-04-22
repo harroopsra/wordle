@@ -3,7 +3,7 @@ import random
 WORD_SIZE = 5
 
 words = []
-with open('./wordle/sgb-words.txt', 'r') as this_file:
+with open('sgb-words.txt', 'r') as this_file:
     for line in this_file:
         words.append(line.rstrip())
 
